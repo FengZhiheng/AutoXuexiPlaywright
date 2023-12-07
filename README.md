@@ -13,7 +13,7 @@ This is a completely rewrite, you can see [CHANGELOG.md](./CHANGELOG.md) for mor
 - Prepare Python  
     We need Python 3.11 and above. Because we use `Self` in function signature and `asyncio.TaskGroup` in code, which are only available on 3.11 and later.
 - Install Poetry  
-    We use `poetry` to manage dependencies. See [here](https://python-poetry.org/docs/) for more info. For Linux users, we strongly recommend using your distribution's package manager to install poetry. For Arch Linux, you can run `# pacman -Sy python-poetry` to achieve that.
+    We use `poetry` to manage dependencies. See [here](https://pythopoetryn-poetry.org/docs/) for more info. For Linux users, we strongly recommend using your distribution's package manager to install poetry. For Arch Linux, you can run `# pacman -Sy python-poetry` to achieve that.
 - Install dependencies  
     Open a terminal, go to where the repository is, and run `poetry install` to install dependencies. Poetry will create virtual environment automatically. We have set mirror site of pypi in China so it should not spend too much time.
     Note: If you want to download video on test pages to help solving questions, you must also install optional dependency `python-ffmpeg` and its dependencies.
